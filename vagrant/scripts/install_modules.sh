@@ -10,7 +10,7 @@ puppet module install crayfishx/firewalld --modulepath $dir --version 1.2.3;
 puppet module install example42-timezone --modulepath $dir --version 2.0.13;
 puppet module install example42/ntp --modulepath $dir --version 2.0.15;
 
-yum install -y git
-git clone <mi repo> /vagrant/modules/
+#yum install -y git
+git clone https://github.com/alexhoma/alex_module.git /vagrant/modules/
 
 exit 0;
