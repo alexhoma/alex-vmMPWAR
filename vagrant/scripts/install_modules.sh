@@ -11,6 +11,7 @@ puppet module install example42-timezone --modulepath $dir --version 2.0.13;
 puppet module install example42/ntp --modulepath $dir --version 2.0.15;
 
 #yum install -y git
-git clone https://github.com/alexhoma/alex_module.git /vagrant/modules/
+git clone https://github.com/alexhoma/alex_module.git
+mv alex_module/ $dir
 
 exit 0;
